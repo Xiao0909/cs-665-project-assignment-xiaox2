@@ -19,14 +19,14 @@ For each assignment, please answer the following:
 
 - Explain the level of flexibility in your implementation, including how new object types can
 be easily added or removed in the future.
-Answ: The implementation uses the interface and adapter design pattern, which allows new object types to be added easily by implementing the CustomerData interface. The adapter class can be used to convert the new object type to the desired interface. Similarly, removing an object type would only require removing the class that implements the interface. Therefore, the implementation provides a high level of flexibility in adding or removing object types in the future.
+</br>Answ: The implementation uses the interface and adapter design pattern, which allows new object types to be added easily by implementing the CustomerData interface. The adapter class can be used to convert the new object type to the desired interface. Similarly, removing an object type would only require removing the class that implements the interface. Therefore, the implementation provides a high level of flexibility in adding or removing object types in the future.
 - Discuss the simplicity and understandability of your implementation, ensuring that it is
 easy for others to read and maintain.
-The implementation is simple and easy to understand. The classes and methods are clearly named and organized, and the code follows best practices for Java programming. This makes it easy for others to read and maintain the code, as well as add new object types in the future.A
+</br>Answ: The implementation is simple and easy to understand. The classes and methods are clearly named and organized, and the code follows best practices for Java programming. This makes it easy for others to read and maintain the code, as well as add new object types in the future.A
 - Describe how you have avoided duplicated code and why it is important.
-- If applicable, mention any design patterns you have used and explain why they were
-chosen.
-
+</br>Answ:I have avoided duplicated code by creating a base class and extending it for each specific object type. This is important because it reduces the amount of code that needs to be written and makes the code easier to maintain and update in the future.
+- If applicable, mention any design patterns you have used and explain why they were chosen.
+</br>Answ: The code uses the Adapter design pattern to convert HTTPS customer data operations to USB interface. The adapter class provides a way to use the existing HTTPS customer data operations with the USB interface without modifying the original code. This helps to maintain the single responsibility principle and enhances the code's modularity and reusability.
 
 # Maven Commands
 
