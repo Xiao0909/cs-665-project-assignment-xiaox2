@@ -10,7 +10,7 @@
 Please add a paragraph or two overviewing the objectives of the assignment.
 
 # GitHub Repository Link:
-(https://github.com/Xiao0909/cs-665-project-xiaox2/)
+(https://github.com/Xiao0909/cs-665-project-assignment-xiaox2)
 
 # Implementation Description 
 
